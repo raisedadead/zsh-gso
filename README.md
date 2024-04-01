@@ -5,6 +5,16 @@
 
 ## Installation
 
+### zinit
+
+```zsh
+zinit wait lucid for raisedadead/zsh-gso
+```
+
+<details>
+
+<summary>Other Plugin Managers</summary>
+
 ### Zplug
 
 ```zsh
@@ -17,7 +27,7 @@ zplug "raisedadead/zsh-gso"
 antigen bundle raisedadead/zsh-gso
 ```
 
-### Oh-My-Zsh (WHY?!!)
+### Oh-My-Zsh
 
 ```zsh
 git clone https://github.com/raisedadead/zsh-gso.git $ZSH_CUSTOM/plugins/zsh-gso
@@ -36,6 +46,8 @@ plugins=(
 git clone https://github.com/raisedadead/zsh-gso.git
 source zsh-gso/gso.plugin.zsh
 ```
+
+</details>
 
 ## Usage
 
